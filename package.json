@@ -1,0 +1,27 @@
+{
+  "name": "ming-note",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "gitbook serve ./content ./gh-pages",
+    "build": "gitbook build ./content ./gh-pages",
+    "deploy": "node ./scripts/deploy-gh-pages.js",
+    "publish": "npm run build && npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayangliming/ming-note.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayangliming/ming-note/issues"
+  },
+  "homepage": "https://github.com/ayangliming/ming-note#readme"
+}
