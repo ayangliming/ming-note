@@ -128,7 +128,7 @@ function main() {
     ghpages.publish('./gh-pages', console.error.bind(console));
 }
 ```
-这样，每次书稿有了修改，运行
+这样，每次书稿有了修改，线上传到 maste 分支。再切换到 gh-pages 分支运行
 
 ```js
 npm run publish
